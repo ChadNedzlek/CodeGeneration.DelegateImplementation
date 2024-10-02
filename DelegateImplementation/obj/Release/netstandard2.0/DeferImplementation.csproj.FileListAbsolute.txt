@@ -1,0 +1,10 @@
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\bin\Release\netstandard2.0\DeferImplementation.deps.json
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\bin\Release\netstandard2.0\DeferImplementation.dll
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\bin\Release\netstandard2.0\DeferImplementation.pdb
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\obj\Release\netstandard2.0\DeferImplementation.csproj.AssemblyReference.cache
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\obj\Release\netstandard2.0\DeferImplementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\obj\Release\netstandard2.0\DeferImplementation.AssemblyInfoInputs.cache
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\obj\Release\netstandard2.0\DeferImplementation.AssemblyInfo.cs
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\obj\Release\netstandard2.0\DeferImplementation.csproj.CoreCompileInputs.cache
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\obj\Release\netstandard2.0\DeferImplementation.dll
+C:\Users\chadnedz\RiderProjects\DeferImplementation\DeferImplementation\obj\Release\netstandard2.0\DeferImplementation.pdb
