@@ -3,7 +3,9 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>latest</LangVersion>
+        <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+        <IsRoslynComponent>true</IsRoslynComponent>
         
         <RootNamespace>VaettirNet.CodeGeneration.DelegateImplementation</RootNamespace>
         <PackageId>$(RootNamespace)</PackageId>
@@ -26,6 +28,7 @@
     </ItemGroup>
     <ItemGroup>
         <None Include="../README.md" Pack="true" PackagePath="/"/>
+        <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
     </ItemGroup>
 
 </Project>
