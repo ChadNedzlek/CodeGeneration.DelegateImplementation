@@ -6,6 +6,7 @@
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
         
         <RootNamespace>VaettirNet.CodeGeneration.DelegateImplementation</RootNamespace>
+        <PackageId>$(RootNamespace)</PackageId>
         <Description>C# Source Generator to delegate interface/abstract members to a field</Description>
         <Copyright>Chad Nedzlek 2024</Copyright>
         <Authors>Chad Nedzlek</Authors>
