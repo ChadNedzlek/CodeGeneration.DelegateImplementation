@@ -4,12 +4,27 @@
         <TargetFramework>netstandard2.0</TargetFramework>
         <LangVersion>latest</LangVersion>
         <EnforceExtendedAnalyzerRules>true</EnforceExtendedAnalyzerRules>
+        
         <RootNamespace>VaettirNet.CodeGeneration.DelegateImplementation</RootNamespace>
+        <Description>C# Source Generator to delegate interface/abstract members to a field</Description>
+        <Copyright>Chad Nedzlek 2024</Copyright>
+        <Authors>Chad Nedzlek</Authors>
+        <PackageProjectUrl>https://github.com/ChadNedzlek/CodeGeneration.DelegateImplementation</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/ChadNedzlek/CodeGeneration.DelegateImplementation</RepositoryUrl>
+        <RepositoryBranch>main</RepositoryBranch>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+        <PackageVersion>$(LocalVersion)</PackageVersion>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.1" PrivateAssets="all"/>
         <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="3.3.4" PrivateAssets="all"/>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="../README.md" Pack="true" PackagePath="/"/>
     </ItemGroup>
 
 </Project>
